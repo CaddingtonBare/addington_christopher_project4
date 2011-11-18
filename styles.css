@@ -1,0 +1,85 @@
+/*
+ VFW Project 4
+ Christopher Addington
+ VFW Term 1111, 17 November 2011
+*/
+
+body {
+    background-color: #9FD39F;
+    background-image: -webkit-gradient(#9FD39F, #8FBC8F 100%);
+    background-repeat: no-repeat;
+}
+header h1:nth-child(1) {
+    margin: 0px 0px 20px 0px;
+    padding: 10px;
+    font: bold 30px Helvetica;
+    color: #00000f;
+    text-align: center;
+    text-shadow: 1px 1px #5f6b5f;
+    border: thin solid #627681;
+    background-image: -webkit-linear-gradient(top, #61c264, #55a557 50%);   
+}
+h1 label:nth-child(1) {
+    font: bold 20px Helvetica;
+}
+h1 a {
+    text-decoration: none;
+    color: black;
+}
+form select:nth-child(1) {
+    margin: 0 0 20px 0;
+}
+select option {
+    font: 14px Helvetica;
+}
+form fieldset {
+    border: thin solid #627681;
+    background-image: -webkit-linear-gradient(top, #61c264, #55a557 25%);
+}
+fieldset legend {
+    font: bold 18px Helvetica;
+    padding: 20px 0 0 0;
+    letter-spacing: 10px;
+}
+fieldset span {
+    font: small Helvetica;
+}
+ul li {
+    margin: 0 0 10px 0;
+    font: 14px Helvetica;
+    line-height: 15px;
+    list-style: none;
+}
+nav a {
+    font: bold 14px Helvetica;
+    text-decoration: none;
+    color: black;
+    margin: 0 10px 0 0;
+    padding: 3px;
+    border: thin solid #627681;
+    border-radius: 5px;
+    background-image: -webkit-linear-gradient(top, #94d996, #71a873 100%);
+    box-shadow: 2px 2px 0 0 rgba(110,110,110,1);
+}
+h1 a:nth-child(1) {
+    font: bold 18px Helvetica;
+    padding: 5px;
+    border: thin solid #627681;
+    border-radius: 5px;
+    background-image: -webkit-linear-gradient(top, #94d996, #71a873 100%);
+    box-shadow: 2px 2px 0 0 rgba(110,110,110,1);
+}
+section p:nth-child(1) {
+    font: bold 14px Helvetica;
+}
+li label {
+    font: 14px Helvetica;
+}
+input[type=submit] {
+    margin: 20px 0 0 0;
+    font: bold 14px Helvetica;
+    border: thin solid #627681;
+    background-image: -webkit-linear-gradient(top, #94d996, #71a873 100%);
+    box-shadow: 2px 2px 0 0 rgba(110,110,110,1);
+    border-radius: 5px;
+}
